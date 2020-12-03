@@ -8,7 +8,7 @@ public class Main {
     public static void main(final String[] args) {
         final var inputLines = FileReaderUtils.readFile(INPUT_DATA);
 
-        final Solution solution = new Solution(inputLines);
+        final var solution = new Solution(inputLines);
 
         System.out.println(solution.calculate());
     }
