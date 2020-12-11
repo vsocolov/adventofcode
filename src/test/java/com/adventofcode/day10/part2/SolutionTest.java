@@ -2,6 +2,7 @@ package com.adventofcode.day10.part2;
 
 import com.adventofcode.utils.FileReaderUtils;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 class SolutionTest {
@@ -16,6 +17,7 @@ class SolutionTest {
         Assertions.assertEquals(8, underTest.count(inputLines));
     }
 
+    @Disabled
     @Test
     void testCountB() {
         // given
