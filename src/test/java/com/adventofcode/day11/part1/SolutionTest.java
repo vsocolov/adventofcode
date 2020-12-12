@@ -10,7 +10,7 @@ class SolutionTest {
     @Test
     void testCount() {
         // given
-        final var inputLines = FileReaderUtils.readFile("day11.txt");
+        final var inputLines = FileReaderUtils.readFile("day11/day11.txt");
 
         // then
         Assertions.assertEquals(37, underTest.count(inputLines));
